@@ -1,10 +1,20 @@
 jamb-grammars
 Copyright 2026 The jamb Authors
 
-The code of this repository (the shim, the language packages and the build
-command) is licensed under the Apache License, Version 2.0 (see LICENSE). The
-grammars and the tree-sitter runtime that the modules embed are licensed as
-follows.
+The code of this repository (the shim, the language packages, the treesitter
+highlighter and the build command) is licensed under the Apache License,
+Version 2.0 (see LICENSE). The grammars and the tree-sitter runtime that the
+modules embed, and the WebAssembly runtime that the treesitter package links,
+are licensed as follows.
+
+Third-party software: wazero
+
+The treesitter package and internal/treesitter run the modules with wazero
+(github.com/tetratelabs/wazero) v1.12.0, which they link as a Go module
+dependency. wazero is licensed under the Apache License, Version 2.0, the
+license in LICENSE. Its NOTICE reads:
+
+  Copyright 2020-2023 wazero authors
 
 Third-party software: tree-sitter and grammars
 
