@@ -3,6 +3,8 @@
 Tree-sitter grammars compiled to WebAssembly, and a tree-sitter highlighter for the code editor
 of [jamb](https://github.com/tyler-builds/jamb) (`github.com/tyler-builds/jamb/codeedit`).
 
+It requires jamb v0.4.0 or later, the release that moved this highlighter out of jamb.
+
 jamb's editor has a built-in highlighter, `@pierre/highlights`, that covers 76 languages and needs
 no grammars:
 

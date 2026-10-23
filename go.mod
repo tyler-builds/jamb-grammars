@@ -4,7 +4,7 @@ go 1.27.1
 
 require (
 	github.com/tetratelabs/wazero v1.12.0
-	github.com/tyler-builds/jamb v0.3.0
+	github.com/tyler-builds/jamb v0.4.0
 )
 
 require (
